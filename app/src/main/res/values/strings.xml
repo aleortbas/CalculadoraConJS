@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CamMovilResponsive</string>
+
+    <string name="numeros"><font fgcolor="##DA3030">Teclado</font></string>
+</resources>
