@@ -110,13 +110,22 @@ public class MainActivity extends AppCompatActivity {
     public void porcentaje(View view) {
         numero1 = Float.parseFloat(campo.getText().toString());
         signo = "%";
-        campo.setText("");
+        float result = numero1/100;
+        campo.setText(result + "");
 
         operacion.setText(operacion.getText().toString() + "%");
     }
 
+    public void potencia(View view) {
+        numero1 = Float.parseFloat(campo.getText().toString());
+        signo = "^";
+        campo.setText("");
+
+        operacion.setText(operacion.getText().toString() + "^");
+    }
     public void coma(View view) {
-        campo.setText(campo.getText().toString() + ",");
+
+        campo.setText(campo.getText().toString() + ".");
     }
 
     public void BorrarUltimo(View v){
@@ -152,10 +161,9 @@ public class MainActivity extends AppCompatActivity {
             float result = numero1 - numero2;
             campo.setText(result + "");
         }
-        else if(operacion.equals("%")){
-            float result = (numero1/100);
-            numero2 = 0;
-            campo.setText(result + "");
+        else if(signo.equals("^")){
+            double result = Math.pow(numero1, numero2);
+            campo.setText(result+"");
         }
     }
 }

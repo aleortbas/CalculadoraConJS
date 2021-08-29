@@ -38,9 +38,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#D6D3D3"
+            android:textColor="#2161FF"
             android:onClick="limpiar"
             android:text="\uf2ed"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/division"
@@ -48,9 +52,14 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:textColor="#2161FF"
+            android:backgroundTint="#D6D3D3"
             android:onClick="dividir"
             android:text="\uf529"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:cornerRadius="0dp"
+            />
+
         <Button
             android:id="@+id/multiplicacion"
             android:layout_width="0dp"
@@ -58,8 +67,11 @@
             android:layout_weight="1"
             android:textSize="25sp"
             android:fontFamily="@font/font_awesome"
+            android:textColor="#2161FF"
+            android:backgroundTint="#D6D3D3"
             android:onClick="multiplicar"
             android:text="\uf00d"
+            app:cornerRadius="0dp"
             />
 
         <Button
@@ -68,9 +80,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#D6D3D3"
+            android:textColor="#2161FF"
             android:onClick="BorrarUltimo"
             android:text="\uf55a"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
+            />
 
         </LinearLayout>
 
@@ -88,9 +104,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n7"
             android:text="7"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/n8"
@@ -98,9 +118,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n8"
             android:text="8"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/n9"
@@ -108,9 +132,14 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n9"
             android:text="9"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:cornerRadius="0dp"
+            />
+
         <Button
             android:id="@+id/resta"
             android:layout_width="0dp"
@@ -118,8 +147,11 @@
             android:layout_weight="1"
             android:textSize="30sp"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#D6D3D3"
+            android:textColor="#2161FF"
             android:onClick="resta"
             android:text="\uf068"
+            app:cornerRadius="0dp"
             />
 
     </LinearLayout>
@@ -138,9 +170,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n4"
             android:text="4"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/n5"
@@ -148,9 +184,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n5"
             android:text="5"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/n6"
@@ -158,9 +198,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n6"
             android:text="6"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/suma"
@@ -168,9 +212,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#D6D3D3"
+            android:textColor="#2161FF"
             android:onClick="suma"
             android:text="\uf067"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
+            />
 
     </LinearLayout>
     <LinearLayout
@@ -187,9 +235,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n1"
             android:text="1"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/n2"
@@ -197,9 +249,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n2"
             android:text="2"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/n3"
@@ -207,19 +263,27 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n3"
             android:text="3"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
-            android:id="@+id/igual"
+            android:id="@+id/potencia"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#D6D3D3"
+            android:textColor="#2161FF"
             android:fontFamily="@font/font_awesome"
-            android:onClick="igualTested"
-            android:text="\uf52c"
-            android:textSize="30sp" />
+            android:onClick="potencia"
+            android:text="\uf106"
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
+            />
 
     </LinearLayout>
 
@@ -237,9 +301,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="porcentaje"
             android:text="\uf295"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
+            />
 
         <Button
             android:id="@+id/n0"
@@ -247,9 +315,14 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="n0"
             android:text="0"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:cornerRadius="0dp"
+            />
+
         <Button
             android:id="@+id/coma"
             android:layout_width="0dp"
@@ -257,17 +330,25 @@
             android:layout_weight="1"
             android:textSize="40sp"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             android:onClick="coma"
             android:text=","
+            app:cornerRadius="0dp"
             />
+
         <Button
             android:id="@+id/igual2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="30sp"
             android:fontFamily="@font/font_awesome"
+            android:backgroundTint="#2161FF"
+            android:textColor="#FFFFFF"
+            android:onClick="igualTested"
             android:text="\uf52c"
+            android:textSize="30sp"
+            app:cornerRadius="0dp"
             />
 
     </LinearLayout>
